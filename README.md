@@ -1,8 +1,10 @@
-**FEEDBACK LINK**: [https://pluralsight.surveymonkey.com/r/TCQJVVJ](https://pluralsight.surveymonkey.com/r/TCQJVVJ)
-
 # Generative AI for Developers Workshop
 
 A hands-on workshop teaching developers how to build applications with Large Language Models (LLMs). Covers prompt engineering, RAG, chatbots, AI agents, and MCP servers using Groq's API and open-source Llama models.
+
+## Access the Virtual Environment
+
+Add your name to the [sign-up sheet](https://docs.google.com/spreadsheets/d/1n_uxwnjiG_R9e86O8ieb5KLzWBok4vQlXhQXV6V80gU/edit?gid=547734190#gid=547734190) to claim your username, then sign in using the instructions included in the sheet.
 
 ## Repository Layout
 
@@ -30,10 +32,6 @@ A hands-on workshop teaching developers how to build applications with Large Lan
 4) [AI Agents + MCP](https://docs.google.com/presentation/d/18CWz2N2x9VE7qwPLCy5Dokwbq7u5c3P5/edit?usp=drive_link&ouid=109036277148056682596&rtpof=true&sd=true)
 
 5) [AI Ethics and Safety](https://docs.google.com/presentation/d/1mo0IRrU78hI0-vvZs2pJT32MWrZyPAlZ/edit?usp=drive_link&ouid=109036277148056682596&rtpof=true&sd=true)
-
-## Access the Virtual Environment
-
-Add your name to the [sign-up sheet](https://docs.google.com/spreadsheets/d/1HnRHgt5hIfD8lq4J98bZSerfv0o-gNB57PdBA1fAWdk/edit?gid=547734190#gid=547734190) to claim your username, then sign in using the instructions included in the sheet.
 
 ## Quick Start
 
