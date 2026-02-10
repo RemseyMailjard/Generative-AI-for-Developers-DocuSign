@@ -81,3 +81,4 @@ See [SETUP.md](SETUP.md) for detailed setup instructions and troubleshooting.
 - [Link for RAG Notebook](https://colab.research.google.com/drive/1I0VsN4F0WLv2wKoZeONcM1xlw3_kuaMM)
 - [Glean MCP Information](https://claude.ai/public/artifacts/fe719fb4-66fa-46d4-8ce6-b3e094a03b80)
 - [MCP Config File Documentation for VS Code and Copilot](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
+- [Major LLM differentiators (ie ChatGPT vs Anthropic vs Gemini)](https://claude.ai/public/artifacts/b8860846-6acb-41ac-932c-213af408dd67)
