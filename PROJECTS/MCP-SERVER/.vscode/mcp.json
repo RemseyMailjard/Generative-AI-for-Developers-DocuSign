@@ -2,11 +2,15 @@
 	"servers": {
 		"leave-manager": {
 			"type": "stdio",
-			"command": "python",
+			"command": "uv",
 			"args": [
-				"${workspaceFolder}/PROJECTS/MCP-SERVER/my-first-mcp-server/main.py"
-			],
-			"cwd": "${workspaceFolder}/PROJECTS/MCP-SERVER/my-first-mcp-server"
+				"run",
+				"--directory",
+				"${workspaceFolder}/my-first-mcp-server",
+				"mcp",
+				"run",
+				"main.py"
+			]
 		},
 		"helpdesk": {
 			"type": "stdio",
@@ -14,33 +18,11 @@
 			"args": [
 				"run",
 				"--directory",
-				"${workspaceFolder}/PROJECTS/MCP-SERVER/helpdesk-api",
+				"${workspaceFolder}/helpdesk-api",
 				"mcp",
 				"run",
 				"solution_simple.py"
 			]
-		},
-		"io.github.github/github-mcp-server": {
-			"type": "stdio",
-			"command": "/usr/local/bin/docker",
-			"args": [
-				"run",
-				"-i",
-				"--rm",
-				"-e",
-				"GITHUB_PERSONAL_ACCESS_TOKEN=${input:token}",
-				"ghcr.io/github/github-mcp-server:0.30.2"
-			],
-			"gallery": "https://api.mcp.github.com",
-			"version": "0.30.2"
 		}
-	},
-	"inputs": [
-		{
-			"id": "token",
-			"type": "promptString",
-			"description": "",
-			"password": true
-		}
-	]
+	}
 }
