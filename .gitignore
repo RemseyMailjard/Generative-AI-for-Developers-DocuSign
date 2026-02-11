@@ -1,0 +1,21 @@
+# Environment
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# IDE
+.vscode/
+.ipynb_checkpoints/
+
+# Solution files (keep local, not on GitHub)
+PROJECTS/MCP-SERVER/helpdesk-api/solution.py
+PROJECTS/MCP-SERVER/helpdesk-api/solution_simple.py
+PROJECTS/AI-AGENT/web_research_agent_solution.py
+
+# Lock files
+uv.lock
+
+# Playwright MCP
+.playwright-mcp/
